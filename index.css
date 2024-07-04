@@ -44,10 +44,13 @@ ul {
     align-items: center;
     list-style: none;
     font-size: 3vmax;
+    transition: all ease 1s;
+
 }
 
 ul>li {
     margin-bottom: 10%;
+    transition: all ease 0.5s;
 }
 
 ul a {
@@ -59,6 +62,7 @@ ul a {
 
 ul a:hover {
     border-color: white;
+    scale: 2;
 }
 
 .close {
